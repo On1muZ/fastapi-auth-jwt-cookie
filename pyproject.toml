@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-auth-jwt-cookie"
+version = "0.1.0"
+description = ""
+authors = ["On1muZ"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.1"
+asyncpg = "^0.29.0"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+alembic = "^1.13.1"
+pydantic-settings = "^2.1.0"
+passlib = "^1.7.4"
+pyjwt = "^2.8.0"
+bcrypt = "4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
